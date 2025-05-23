@@ -38,6 +38,7 @@ export function BlobPortfolio({ blob }: BlobProps) {
           href={blob.websiteSrc ?? ""}
           onMouseEnter={() => handleOnHover(true)}
           onMouseLeave={() => handleOnHover(false)}
+          target="_blank"
         >
           <Image
             src={blob.websiteImgSrc ?? ""}

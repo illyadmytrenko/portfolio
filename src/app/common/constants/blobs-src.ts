@@ -33,6 +33,6 @@ export const BlobsSrc = [
     src: "/yellow-blob.svg",
     text: "React Todo List",
     websiteImgSrc: "/todo-list.png",
-    websiteSrc: "https://jolly-cannoli-430ba4.netlify.app/",
+    websiteSrc: "todo-list-illya.netlify.app",
   },
 ];
