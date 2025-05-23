@@ -17,7 +17,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 lg:gap-30">
           <div className="flex flex-col min-[470px]:flex-row gap-6 min-[470px]:items-center">
             <img
-              src={"https://i.postimg.cc/9MygvKTK/me.jpg"}
+              src="me.png"
               alt="profile photo"
               width={140}
               height={140}
