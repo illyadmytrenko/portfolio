@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Home() {
   const links = [
@@ -36,12 +35,12 @@ export default function Home() {
               <span className="text-lg sm:text-2xl whitespace-nowrap">
                 Located in
               </span>
-              <Image
+              <img
                 src="location.svg"
                 alt="location icon"
                 width={48}
                 height={48}
-              ></Image>
+              />
             </div>
             <span className="text-xl sm:text-3xl">Brovary, Ukraine</span>
           </div>
@@ -56,13 +55,13 @@ export default function Home() {
                 href={link.href ?? ""}
                 className="hover:scale-110 transition-transform"
               >
-                <Image
+                <img
                   src={link.src ?? ""}
                   alt={link.alt ?? ""}
                   width={160}
                   height={160}
                   className="col-span-1 row-span-1"
-                ></Image>
+                />
               </Link>
             );
           })}

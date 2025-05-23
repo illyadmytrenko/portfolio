@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { HardSkills } from "../common/constants/hard-skills";
 
 export default function About() {
@@ -17,7 +16,7 @@ export default function About() {
         </h4>
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 lg:gap-30">
           <div className="flex flex-col min-[470px]:flex-row gap-6 min-[470px]:items-center">
-            <Image
+            <img
               src={"https://i.postimg.cc/9MygvKTK/me.jpg"}
               alt="profile photo"
               width={140}
@@ -32,7 +31,7 @@ export default function About() {
                 </h6>
               </div>
               <div className="flex gap-2 items-center">
-                <Image
+                <img
                   src={"location.svg"}
                   alt="location icon"
                   width={24}
@@ -68,14 +67,14 @@ export default function About() {
                 {Array.from({ length: 5 }).map((_, i) => (
                   <span key={i}>
                     {i < skills[0].stars ? (
-                      <Image
+                      <img
                         alt={"gold star"}
                         src="/gold-star.png"
                         width={24}
                         height={24}
                       />
                     ) : (
-                      <Image
+                      <img
                         alt={"empty star"}
                         src={"/empty-star.png"}
                         width={24}
@@ -92,7 +91,7 @@ export default function About() {
                   key={skill.id}
                   className="flex flex-col items-center gap-3"
                 >
-                  <Image
+                  <img
                     alt={skill.name}
                     src={`/${skill.icon}`}
                     width={60}

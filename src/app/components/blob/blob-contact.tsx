@@ -1,7 +1,6 @@
 "use client";
 
 import { BlobType } from "@/app/common/types/blob-type";
-import Image from "next/image";
 
 interface BlobProps {
   blob: BlobType;
@@ -13,7 +12,7 @@ export function BlobContact({ blob, className }: BlobProps) {
     <div key={blob.src} className={className}>
       <div className="relative w-fit !z-20 overflow-hidden hover:scale-110 transition-transform">
         <a href={blob.href ?? "/"} target="_blank">
-          <Image
+          <img
             src={blob.src}
             alt="portfolio icon"
             width={300}

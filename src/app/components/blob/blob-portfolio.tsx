@@ -1,7 +1,6 @@
 "use client";
 
 import { BlobType } from "@/app/common/types/blob-type";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -22,7 +21,7 @@ export function BlobPortfolio({ blob }: BlobProps) {
         onMouseEnter={() => handleOnHover(true)}
         onMouseLeave={() => handleOnHover(false)}
       >
-        <Image
+        <img
           src={blob.src}
           alt="portfolio icon"
           width={300}
@@ -40,7 +39,7 @@ export function BlobPortfolio({ blob }: BlobProps) {
           onMouseLeave={() => handleOnHover(false)}
           target="_blank"
         >
-          <Image
+          <img
             src={blob.websiteImgSrc ?? ""}
             alt="portfolio icon"
             width={500}
