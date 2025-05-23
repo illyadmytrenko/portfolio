@@ -31,7 +31,7 @@ export function BlobContact({ blob, className }: BlobProps) {
               alt="icon"
               width={40}
               height={40}
-              className={blob.imgClassName ?? ""}
+              className={blob.imgClassName ?? "w-[30px] sm:w-[40px]"}
             />
           </div>
         </a>

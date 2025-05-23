@@ -21,7 +21,7 @@ export default function About() {
               alt="profile photo"
               width={140}
               height={140}
-              className="w-auto h-auto border-2 border-solid border-green-600 rounded-md"
+              className="w-auto h-auto min-[470px]:max-w-[200px] border-2 border-solid border-green-600 rounded-md"
             />
             <div>
               <div className="mb-6 sm:mb-8">
