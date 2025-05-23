@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { BlobsSrc } from "../common/constants/blobs-src";
 import { BlobPortfolio } from "../components/blob/blob-portfolio";
 
