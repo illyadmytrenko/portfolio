@@ -27,7 +27,7 @@ export default function About() {
               <div className="mb-6 sm:mb-8">
                 <h5 className="text-2xl sm:text-3xl mb-2">Illya Dmytrenko</h5>
                 <h6 className="text-xl sm:text-2xl">
-                  Junior Frontend Developer
+                  Junior/Middle Frontend Developer
                 </h6>
               </div>
               <div className="flex gap-2 items-center">
@@ -37,7 +37,7 @@ export default function About() {
                   width={24}
                   height={24}
                 />
-                <p>Brovary, Ukraine</p>
+                <p>Hamburg, Germany</p>
               </div>
             </div>
           </div>
@@ -49,6 +49,7 @@ export default function About() {
               <p>Ukraninan - Native</p>
               <p>Russian - Native</p>
               <p>English - Upper Intermidiate</p>
+              <p>German - Beginner</p>
             </div>
           </div>
         </div>
@@ -88,7 +89,7 @@ export default function About() {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 items-center">
               {skills.map((skill) => (
                 <div
-                  key={skill.id}
+                  key={skill.name}
                   className="flex flex-col items-center gap-3"
                 >
                   <img
@@ -135,13 +136,24 @@ export default function About() {
           Experience
         </h4>
         <article>
-          I have been studying frontend development for over 2 years, focusing
-          on technologies like HTML, CSS, JavaScript, and React. I completed a
-          1.5-month unpaid internship, where I gained valuable experience
-          working in a team environment with Git version control. Additionally,
-          I served as a team lead on a separate practical training project,
-          where I coordinated the team, distributed tasks, and ensured smooth
-          collaboration throughout the development process.
+          I have 9 months of commercial experience in frontend development. I
+          started by creating simple landing pages and coding email templates,
+          then moved on to server setup and configuration, bug fixing on the
+          company’s admin platform, and eventually contributed to developing
+          Telegram Web App applications using Svelte. I am experienced with
+          SCSS, CSS preprocessors, CSS-in-JS, CSS Modules, and working with
+          ready-made component libraries such as Material UI (MUI). I also have
+          solid experience working with databases, including MySQL and MongoDB.
+          During this time, I frequently collaborated with my team, maintained
+          excellent professional relationships, and effectively communicated
+          with colleagues to ensure smooth project progress. Not including my
+          commercial experience, I have been studying frontend development for
+          over 2 years, focusing on technologies like HTML, CSS, JavaScript, and
+          React. I completed a 1.5-month unpaid internship, where I gained
+          valuable experience working in a team environment with Git version
+          control. Additionally, I served as a team lead on a separate practical
+          training project, where I coordinated the team, distributed tasks, and
+          ensured smooth collaboration throughout the development process.
         </article>
       </div>
     </div>

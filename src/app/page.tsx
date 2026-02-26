@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Home() {
@@ -35,14 +37,20 @@ export default function Home() {
               <span className="text-lg sm:text-2xl whitespace-nowrap">
                 Located in
               </span>
-              <img
-                src="location.svg"
-                alt="location icon"
-                width={48}
-                height={48}
-              />
+              <Link
+                className="flex items-center gap-2 cursor-pointer underline"
+                href={"https://maps.app.goo.gl/84hQjCT8fjrnFKqE6"}
+                target="_blank"
+              >
+                <img
+                  src="location.svg"
+                  alt="location icon"
+                  width={48}
+                  height={48}
+                />
+                <span className="text-xl sm:text-3xl">Hamburg, Germany</span>
+              </Link>
             </div>
-            <span className="text-xl sm:text-3xl">Brovary, Ukraine</span>
           </div>
         </div>
         <div className="grid grid-cols-2 gap-4">
